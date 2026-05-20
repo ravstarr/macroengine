@@ -40,6 +40,11 @@ def root():
     return {"status": "ok", "message": "MacroEngine API is running"}
 
 
+@app.head("/")
+def root_head():
+    return {}
+
+
 @app.get("/forecast")
 def get_forecast():
     cached = get_cached("forecast")

@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pandas
+requests
+sqlalchemy
+psycopg2-binary
+python-dotenv
+pydantic
+alembic
+apscheduler
+statsmodels
+scikit-learn
+numpy
+hmmlearn
+schedule
+textblob

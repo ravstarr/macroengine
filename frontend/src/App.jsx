@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
 
-const API = "http://localhost:8000"
+const API = "https://macroengine.onrender.com"
 
 function OutlookBadge({ outlook }) {
   const cls = `outlook-badge outlook-${outlook || "neutral"}`
